@@ -48,11 +48,34 @@ nav a {
     justify-content: space-evenly;
 }
 
-.end .box {
+.box {
     width: 400px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
 }
 
-.icon {
-    width: 50px;
+.contact h1 {
+    color: white;
+    font-size: 30px;
+    align-content: center;   
 }
+
+.flexcolumn {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logoend {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.icon {
+    width: 100px;
+}
+
