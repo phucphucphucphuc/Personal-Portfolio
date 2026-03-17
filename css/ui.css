@@ -102,3 +102,12 @@ footer .box iframe {
 .phone h3 {
     margin: 10px;
 }
+
+/* --------------------MAIN-------------------- */
+main {
+    min-height: 800px;
+    padding-top: 70px;
+    font-size: 20px;
+
+    overflow-anchor: none;
+}
