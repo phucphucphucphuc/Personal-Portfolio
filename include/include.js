@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    //head
   fetch("include/head.html")
     .then(response => {
       if (!response.ok) throw new Error("Cannot load head-content");
@@ -11,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error("Cannot load shared head", err));
 
-    //navigation bar
   fetch("include/nav.html")
     .then(response => response.text())
     .then(html => {
@@ -19,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error("Cannot load nav", err));
 
-    //footer
   fetch("include/footer.html")
     .then(response => response.text())
     .then(html => {
